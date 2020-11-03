@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "rollup --config rollup.config.js -w",
+    "build": "rollup --config rollup.config.js"
+  },
+  "dependencies": {
+    "phaser": "^3.24.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "rollup": "^2.33.1"
+  },
+  "name": "moonshot",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "Karey Higuera <karey.higuera@gmail.com>",
+  "license": "MIT"
+}
